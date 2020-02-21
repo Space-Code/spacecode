@@ -16,7 +16,7 @@ const IndexPage = () => (
         <div className={"page-header home"}>
             <h1>Make your Staff and Workspace Happy</h1>
             <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
-            <img alt={"Dashboard"} src={featureImage}/>
+            {/* <img alt={"Dashboard"} src={featureImage}/> */}
         </div>
 
         <div className={"container"}>
@@ -38,7 +38,7 @@ const IndexPage = () => (
                     </div>
                 </div>
 
-                <div className={"feature__item"}>
+                {/* <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
@@ -53,9 +53,9 @@ const IndexPage = () => (
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className={"feature__item"}>
+                {/* <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
@@ -70,9 +70,9 @@ const IndexPage = () => (
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className={"feature__item"}>
+                {/* <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
@@ -87,9 +87,9 @@ const IndexPage = () => (
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className={"feature__item"}>
+                {/* <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
@@ -104,22 +104,10 @@ const IndexPage = () => (
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
 
-        <div className={"call-to-action"}>
-            <div className={"container"}>
-                <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
-                </div>
-
-                <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
-                </div>
-            </div>
-        </div>
     </Layout>
 )
 
