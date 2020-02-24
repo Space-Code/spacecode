@@ -36,8 +36,9 @@ const Layout = ({children}) => (
                         <div className={"col-5"}>
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
-                                    <Link to="/" title={"HiStaff"}>
-                                        <img alt={"Logo"} src={logo}/>
+                                    <Link to="/" title={"home"}>
+                                        <h1>Space Code</h1>
+                                        {/* <img alt={"Logo"} src={logo}/> */}
                                     </Link>
                                 </div>
 
@@ -50,7 +51,7 @@ const Layout = ({children}) => (
                         <div className={"col-2"}>
                             <div className={"widget__item"}>
                                 <ul className={"links"}>
-                                    <h4>HiStaff</h4>
+                                    <h4>Space Code</h4>
                                     <ul>
                                         <li><Link to="/integrations/slack" title={"Integrations"}>Integrations</Link></li>
                                         <li><Link to="/about" title={"About Us"}>About</Link></li>
@@ -77,17 +78,17 @@ const Layout = ({children}) => (
                         <div className={"col-3"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
-                                    <a href="https://twitter.com/histaffio" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
-                                    <a href="https://www.linkedin.com/company/histaff/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
-                                    <a href="https://github.com/histaff" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
-                                    <a href="https://www.instagram.com/histaff.io/" target={"_blank"} title={"Instagram"}><img alt={"Instagram"} src={iconInstagram}/></a>
+                                    <a href="" title={"Twitter"} ><img alt={"Twitter"} src={iconTwitter}/></a>
+                                    <a href="" title={"LinkedIn"} ><img alt={"LinkedIn"} src={iconLinkedin} /></a>
+                                    <a href="" title={"GitHub"} ><img alt={"GitHub"} src={iconGitHub} /></a>
+                                    <a href="" title={"Instagram"} ><img alt={"Instagram"} src={iconInstagram} /></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div className={"copyright"}>
-                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://histaff.io" title={"HiStaff"}>HiStaff</a>. All rights reserved.</p>
+                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="" title={"Space Code"}>Space Code</a>. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

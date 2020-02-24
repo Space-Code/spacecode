@@ -7,9 +7,10 @@ const Header = ({siteTitle}) => (
     <header>
         <div className={"container"}>
             <div className={"top-menu"}>
-                <div className={"logo"}>
+                <div className={"home"}>
                     <Link to="/" title={"HiStaff"}>
-                        <img alt={"Logo"} src={logo}/>
+                        <h1>Space Code</h1>
+                        {/* <img alt={"Logo"} src={logo}/> */}
                     </Link>
                 </div>
 

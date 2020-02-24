@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `HiStaff`,
+        title: `Space Code`,
         description: `Make your Staff and Workspace Happy`,
-        author: `@mostafasoufi`,
+        author: `Rodrigo Santos`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
