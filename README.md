@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  HiStaff Static Website
+   Static Website
 </h1>
 
 It's a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org/) .
@@ -40,6 +40,7 @@ It's a starter static website which useful plugins based on [Gatsby](https://www
 At this point, you’ve got a fully functional Gatsby website. For additional information on how you can customize your Gatsby site, see our [plugins](https://gatsbyjs.org/plugins/) and [the official tutorial](https://gatsbyjs.org/tutorial/).
 
 ## 🧐 Features
+
 * Support SCSS
 * Web font loader (Google and custom font)
 * Sample pages for starter
