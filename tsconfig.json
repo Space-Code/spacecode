@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./public/spacecode",
+    "outDir": "./public",
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
