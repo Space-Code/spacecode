@@ -1,0 +1,5 @@
+<app-preloader></app-preloader>
+<app-navbar *ngIf="!(location == '/not-found')"></app-navbar>
+<app-sidebar *ngIf="!(location == '/not-found')"></app-sidebar>
+    <router-outlet></router-outlet>
+<app-footer *ngIf="!(location == '/not-found')"></app-footer>
